@@ -313,7 +313,7 @@ body { background: var(--h-bg, #15131f); }
 
 /* ---------- TOGGLE THEME ---------- */
 .em-theme-toggle {
-  position: fixed; top: 14px; right: 14px; z-index: 9999;
+  position: fixed; top: 9px; right: 125px; z-index: 9999;
   padding: 9px 14px; border: 2.5px solid var(--h-line); border-radius: 999px;
   background: var(--h-yellow); color: var(--h-ink); cursor: pointer;
   font-family: 'Bricolage Grotesque'; font-weight: 800; font-size: 12px;
