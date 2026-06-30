@@ -346,3 +346,19 @@ body { background: var(--h-bg, #15131f); }
   .em-topstrip { font-size: 9px; }
   .em-topstrip .mid { display: none; }
 }
+
+/* Espacement entre catégories */
+.em-cat { margin-top: 42px; }
+
+/* Bordure gauche colorée sur les lignes (la couleur est injectée en JS) */
+.em-forum {
+  border-left: 7px solid var(--acc, var(--h-red));
+  border-radius: 0 10px 10px 0;
+  margin-bottom: 2px;
+}
+
+/* Ferme bien le cadre entre catégories */
+.em-cat .em-frame { margin-top: 14px; }
+
+/* Le badge lettre est centré dans l'étoile */
+.em-cat-num { display: inline-grid; place-items: center; }
