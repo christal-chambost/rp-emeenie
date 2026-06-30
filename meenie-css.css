@@ -290,7 +290,7 @@ body { background: var(--h-bg, #15131f); }
 .em-online-num { font-size: 20px; color: var(--h-red); } 
 .em-userchip a {
   padding: 3px 10px; border-radius: 999px; font-size: 11px;
-  font-family: 'Bricolage Grotesque'; font-weight: 800; text-transform: uppercase;
+  font-family: 'Bricolage Grotesque'; font-weight: 800; text-transform: uppercase; display:flex; align-items: center;
   background: var(--h-panel-2); color: var(--h-text); border: 2px solid var(--h-line);
 }
 .em-userchip.me { background: var(--h-red); color: #fff; }
