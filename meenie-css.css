@@ -287,8 +287,8 @@ body { background: var(--h-bg, #15131f); }
 
 /* ---------- SIDEBAR : online ---------- */
 #online-count { font-family: 'Bricolage Grotesque'; font-weight: 800; font-size: 50px; line-height: 0.9; }
-.em-online-num { font-size: 20px; color: var(--h-red); }
-.em-userchip {
+.em-online-num { font-size: 20px; color: var(--h-red); } 
+.em-userchip a {
   padding: 3px 10px; border-radius: 999px; font-size: 11px;
   font-family: 'Bricolage Grotesque'; font-weight: 800; text-transform: uppercase;
   background: var(--h-panel-2); color: var(--h-text); border: 2px solid var(--h-line);
